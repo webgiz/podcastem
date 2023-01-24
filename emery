@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Podcast for Young Adult Women</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Podcast for Young Adult Women</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#latest-episode">Latest Episode</a></li>
+      <li><a href="#about-us">About Us</a></li>
+      <li><a href="#listen">Listen</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="latest-episode">
+      <h2>Latest Episode</h2>
+      <p>Title: "Navigating Career Choices"</p>
+      <audio controls src="episode1.mp3"></audio>
+    </section>
+
+    <section id="about-us">
+      <h2>About Us</h2>
+      <p>We are a podcast for young adult women discussing topics such as career, relationships, and personal growth.</p>
+    </section>
+
+    <section id="listen">
+      <h2>Listen</h2>
+      <p>You can listen to our podcast on the following platforms:</p>
+      <ul>
+        <li>Spotify</li>
+        <li>Apple Podcasts</li>
+        <li>Google Podcasts</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright © 2021 Podcast for Young Adult Women</p>
+  </footer>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #F5A623;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+nav {
+  background-color: #F5A623;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 1em;
+}
+
+footer {
+  background-color: #F5A623;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+}
